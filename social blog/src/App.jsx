@@ -1,4 +1,5 @@
 import React from 'react'
+import log from "./log"
 
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h1>hello</h1>
+    <h1></h1>
+      <logIn/>
     </>
   )
 }
